@@ -75,14 +75,17 @@ The frontend offers an interactive interface for users to upload and view soluti
    ```bash
    git clone https://github.com/Aaronvern/mathbook.git
    cd mathbook
+   ```
 2. Install backend dependencies:
   ```bash
   cd mathbook_be
   pip install -r requirements.txt
+  ```
 3. Install frontend dependencies:
   ```bash
   cd ../math book fe
   npm install
+  ```
 4. Start the services:
   ```bash
   # Backend
@@ -92,7 +95,7 @@ The frontend offers an interactive interface for users to upload and view soluti
   # Frontend
   cd ../math book fe
   npm run dev
-
+  ```
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues or pull requests for improvements.
